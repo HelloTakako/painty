@@ -1,0 +1,25 @@
+body{
+    background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100vw;
+    height: auto;
+    padding-bottom: 56px; /* for fixed footer*/
+}
+.login-box{
+    max-width: 700px;
+    margin: 50px auto;
+}
+.sign-in, .sign-up{
+    padding: 30px;
+    background-color: #fff;
+}
+.sign-in{
+    border-right: 1px dashed #ccc;
+}
+
+/* dashboard */
+.dashboard .row{
+    margin-top: 100px;
+    padding: 30px 0;
+}
